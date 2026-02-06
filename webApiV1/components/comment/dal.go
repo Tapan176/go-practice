@@ -3,7 +3,7 @@ package comment
 import (
 	"database/sql"
 
-	entityschema "github.com/Tapan176/go-practice/webApiV1/model/entitySchema"
+	entityschema "github.com/Tapan176/go-practice/webApiV1/model/dto"
 )
 
 func GetCommentsByPostID(dbClient *sql.DB, postID int) ([]entityschema.Comment, error) {

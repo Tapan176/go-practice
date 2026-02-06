@@ -7,7 +7,7 @@ import (
 	"github.com/Tapan176/go-practice/constants"
 	"github.com/Tapan176/go-practice/internal"
 	"github.com/Tapan176/go-practice/middleware"
-	entityschema "github.com/Tapan176/go-practice/webApiV1/model/entitySchema"
+	entityschema "github.com/Tapan176/go-practice/webApiV1/model/dto"
 	requestSchema "github.com/Tapan176/go-practice/webApiV1/model/requestSchema"
 	"github.com/gorilla/sessions"
 )

@@ -3,7 +3,7 @@ package user
 import (
 	"database/sql"
 
-	entityschema "github.com/Tapan176/go-practice/webApiV1/model/entitySchema"
+	entityschema "github.com/Tapan176/go-practice/webApiV1/model/dto"
 )
 
 func GetAllUsers(dbClient *sql.DB) ([]entityschema.User, error) {

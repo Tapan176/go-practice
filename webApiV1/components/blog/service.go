@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/Tapan176/go-practice/internal"
-	entityschema "github.com/Tapan176/go-practice/webApiV1/model/entitySchema"
+	entityschema "github.com/Tapan176/go-practice/webApiV1/model/dto"
 )
 
 func GetPostsService(dbClient *sql.DB, limit, page int) ([]entityschema.Post, error) {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/Tapan176/go-practice/internal"
 	"github.com/Tapan176/go-practice/webApiV1/components/user"
-	entityschema "github.com/Tapan176/go-practice/webApiV1/model/entitySchema"
+	entityschema "github.com/Tapan176/go-practice/webApiV1/model/dto"
 	"golang.org/x/crypto/bcrypt"
 )
 

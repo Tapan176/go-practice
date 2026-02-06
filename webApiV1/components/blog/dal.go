@@ -3,7 +3,7 @@ package blog
 import (
 	"database/sql"
 
-	entityschema "github.com/Tapan176/go-practice/webApiV1/model/entitySchema"
+	entityschema "github.com/Tapan176/go-practice/webApiV1/model/dto"
 )
 
 func GetPostsDal(dbClient *sql.DB, limit, page int) ([]entityschema.Post, error) {
